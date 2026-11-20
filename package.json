@@ -1,0 +1,13 @@
+{
+  "name": "power-planner-appstore-assets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "App Store screenshot and promotional asset generator for Power Planner",
+  "scripts": {
+    "generate": "python3 generate_all.py",
+    "generate:iphone": "python3 generate_all.py --target iphone",
+    "generate:ipad": "python3 generate_all.py --target ipad",
+    "generate:mac": "python3 generate_all.py --target mac",
+    "generate:promo": "python3 generate_all.py --target promo"
+  }
+}
